@@ -23,6 +23,11 @@ Produce standalone JAR which can be run on pure JVM without Clojure:
     lein uberjar
     java -jar ./target/uberjar/dragon-defense-bot-0.1.0-standalone.jar config.yml
 
+Build and run using Docker:
+
+    docker build -d dragonbot:latest .
+    docker run -d -v `pwd`/config.yml:/config.yml dragonbot:latest
+
 ## Usage
 
 * `%link` switches bot to active state in which it handles other commands;
