@@ -62,6 +62,7 @@
                :pass password
                :callbacks {:001     connected-callback
                            :join    joined-callback
+                           ; :raw-log events/stdout-callback
                            :privmsg message-callback
                            :whisper whisper-callback}))
 

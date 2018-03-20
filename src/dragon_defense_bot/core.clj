@@ -18,7 +18,7 @@
   "Whispers command to GM bot if link is active."
   [conn text]
   ; if this command is a dedicated one for bot, need to cut % from the beginning
-  (let [valid-command (last (re-matches #"%?(!.+)" text))]
+  (let [valid-command (last (re-matches #"%?(!.*)" text))]
     (when (@state :link)
       (do
         (irc/whisper conn gm-nick valid-command)
