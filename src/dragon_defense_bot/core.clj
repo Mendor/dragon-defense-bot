@@ -10,7 +10,6 @@
   "Combined regular expression for commands which should never be 'copied'."
   (re-pattern (string/join "|" (flatten
     ["!map.+"
-     "!gold"
      "!archer" "!rogue" "!firemage" "!frostmage" "!alchemist" "!bard"]))))
 
 (def state (atom {:link false}))

@@ -32,8 +32,8 @@ Build and run using Docker:
 
 * `%link` switches bot to active state in which it handles other commands;
 * `%unlink` turns off all reactions;
-* when in the linked state, all commands aside of class and map selection and `!gold`
-  are copied as is to GM bot whisper;
+* when in the linked state, all commands aside of class and map selection are copied
+  as is to GM bot whisper;
 * to forbid "copying" any of whitelisted commands add a dash in the end (e.g. `!1 -`
   if you don't want the bot to follow you);
 * to execute command on bot only add `%` in the beginning (e.g. `%!t` will move
