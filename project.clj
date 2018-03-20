@@ -1,4 +1,4 @@
-(defproject dragon-defense-bot "0.1.0"
+(defproject dragon-defense-bot "0.1.1"
   :description "Dumb bot for Stream Defense"
   :url "https://github.com/Mendor/dragon-defense-bot"
   :license {:name "Eclipse Public License"

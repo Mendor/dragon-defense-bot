@@ -21,7 +21,7 @@ Produce standalone JAR which can be run on pure JVM without Clojure:
 
     # inside of cloned application directory
     lein uberjar
-    java -jar ./target/uberjar/dragon-defense-bot-0.1.0-standalone.jar config.yml
+    java -jar ./target/uberjar/dragon-defense-bot-0.1.1-standalone.jar config.yml
 
 Build and run using Docker:
 
